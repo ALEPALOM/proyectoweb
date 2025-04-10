@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi priemra página</title>
+    <!--CDN Boostrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--CDN Boostrap Sj-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">CUBICOL</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/imagen1.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/imagen2.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/imagen3.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container">
+      <div class="card border-0">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img src="img/imagen3.jpeg" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h2 class="card-title">CONOCE NUESTRAAGENCIA PUBLICITARIA</h5>
+              <p class="card-text">¿Necesitas actualizar tu web, diseños o algún video?
+                Cubicol Agencia te ofrece diferentes servicios para potenciar tu negocio
+                en el mundo digital, así como manejar tus redes sociales</p>
+            <a name="" id="" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal1" data-servicio = "marketing" href="#" role="button">Solicitar información</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+      <div class="card border-0 mt-5">
+        <div class="row g-0">
+
+          <div class="col-md-7">
+            <div class="card-body g-md-5">
+              <h2 class="card-title">LA PLATAFORMA NÚMERO 1 EN GESTIÓN EDUCATIVA</h5>
+              <p class="card-text">¡Se parte de una nueva experiencia en gestión educativa !
+                Cubicol interface intuitiva, práctica y de fácil uso, capaz de adaptarse a
+                todas las necesidades y métodos de trabajo de las instituciones educativas.</p>
+            <a name="" id="" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modal1" data-servicio = "cubicol" href="#" role="button">Solicitar demo</a>
+            <!--<a name="" id="" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#modal1" data-curso = "PHP" href="#" role="button">CERTIFICATE</a>-->
+            </div>
+          </div>
+          <div class="col-md-5">
+            <img src="img/imagen2.jpg" class="img-fluid rounded-start" alt="...">
+          </div>
+         
+        </div>
+      </div>
+
+    </div>
+    <main class="container text-center my-5">
+        <div class="grid text-center">
+            <div class="g-col-12">Sensoft Solutions - Plataforma educativa N° 1</div>
+            <img src="img/images.jpeg" class="img-fluid" alt="...">
+          </div>
+            <div class="row">
+              <div class="col">
+                <h3>Servicios</h3>
+                <p>Como consultora de software, Cubicol ofrece también distintos tipos
+                  de servicios profesionales relacionados a las tecnologías
+                  de información. 
+                    </p>
+              </div>
+              <div class="col">
+                <h3>Productos</h3>
+                <p>Plataforma Web y Móvil ideal para la gestión de colegios.</p>
+              </div>
+              <div class="col">
+                <h3>Sobre nosotros</h3>
+                <p>Nuestro equipo cuenta con más de 14 años de experiencia en software para colegios, facilitando el trabajo de más de 800 clientes que reciben atención inmediata y seguimiento constante de forma personalizada 24/7.</p>
+              </div>
+            </div>
+    </main>
+
+    <div class="modal" id="modal1" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Información</h5>
+            <!--<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+      <p>&copy; 2025 Mi Empresa. Todos los derechos reservados.</p>
+      <p>
+          <a href="#" class="text-white">Política de privacidad</a> | 
+          <a href="#" class="text-white">Términos de servicio</a>
+      </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded',function(){
+      var modal = document.getElementById('modal1');
+      var modalBody = modal.querySelector('.modal-body');
+      modal.addEventListener('show.bs.modal',function(event){
+        var button = event.relatedTarget;
+        var servicio = button.getAttribute('data-servicio');
+        switch(servicio){
+          case 'marketing':
+            modalBody.innerHTML=`
+            <h5>Servivio de Marketing</h5>
+            <p>Este servivio  dura 5 meses...</p>
+            <a href="#" class="btn btn-primary"> Ver mas</a> 
+            `;
+            break
+            case 'cubicol':
+            modalBody.innerHTML=`
+            <h5>Plataforma de servivio cubicol</h5>
+            <p>Este servivio consta en la personalización de la plataforma y soporte técnico...</p>
+            <a href="#" class="btn btn-primary"> Ver mas</a> 
+            `;
+        }
+      });
+    });
+  </script>
+</body>
+</html>
