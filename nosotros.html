@@ -11,49 +11,55 @@
 </head>
 <body>
     <header>
-
-        <nav class="navbar navbar-expand-lg bg-white shadow-sm">
-            <div class="container-fluid">
-              <a class="navbar-brand d-flex align-items-center fw-bold" href="#">
-                <img src="img/Sin título.jpg" alt="" width="" height="40" class="">
-                CUBICOL</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                <ul class="navbar-nav mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link fw-bold text-dark" href="index.html">Cubicol</a>
-                  </li>
-                  <li class="nav-item ">
-                    <a class="nav-link fw-bold text-dark" href="#" >
-                      Productos +
-                    </a>
-                  </li> 
-                  <li class="nav-item">
-                    <a class="nav-link fw-bold text-dark" href="servicios.html">Servicios</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bold text-dark" href="agencia.html">Agencia</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-bold text-dark" href="contactanos.html">Contáctanos</a>
-                  </li>
-              </div>
-
-      <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <div class="d-flex align-items-center">
                 <a class="navbar-brand me-2" href="/">
                     <img class="logo1 d-block" src="img/cubicol-logo.png" style="height: 50px;" alt="...">
                 </a>
-                <a class="navbar-brand fw-bold fs-3 mb-0" href="index.html">Cubicol</a> -->
-<!-- >>>>>>> b95694f650ecd2110b58f8f09cf13409157d6609 -->
-          </div>
+                <a class="navbar-brand fw-bold fs-3 mb-0" href="index.html">Cubicol</a>
+            </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-             
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                       <a class="nav-link active" aria-current="page" href="index.html">Cubicol</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                          Productos
+                      </a>
+                      <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Colegios</a></li>
+                          <li><a class="dropdown-item" href="#">Institutos</a></li>
+                      </ul>
+                  </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="agencia.html">Agencia</a>
+                    <!--<ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>-->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contactanos.html">Contáctanos</a>
+                    </li>
+                </ul>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
         </div>
     </nav>
     </header>
@@ -193,27 +199,30 @@
       <img src="" class="" alt="">
    </div>
 
-  <!--Footer-->
-
-
-  <footer class="bg-black text-white pt-5 pb-3  ">
-    <div class="container">
-      <div class="row text-center text-md-start">
-        
-        <div class="col-md-4 mb-4 center ">
-          <img src="img/Captura de pantalla 2025-04-12 164958.png" alt="" style="width: 30px;">
-          <h5 class="">cubicol</h5>
-          <p class="small">
+  <!-- Footer -->
+  <footer class="bg-black text-white pt-5 pb-3">
+    <div class="container"> <!-- Usamos 'container' para ajustar mejor el espaciado -->
+      <div class="row justify-content-center"> <!-- Centra las columnas en el footer -->
+  
+        <!-- Logo + descripción -->
+        <div class="col-md-3 mb-4 d-flex flex-column align-items-center"> <!-- Alineación centrada -->
+          <div class="d-flex align-items-center mb-2">
+            <img src="img/Captura de pantalla 2025-04-12 164958.png" alt="Logo Cubicol" style="width: 60px; margin-right: 10px;"> <!-- Aumenté el tamaño del logo -->
+            <h4 class="footer-logo-title" style="font-size: 2rem; font-weight: bold;">Cubicol</h4> <!-- Aumenté el tamaño del texto y le puse negrita -->
+          </div>
+          <p class="footer-description text-justify">
             La plataforma digital intuitiva, práctica, capaz de adaptarse a todas las necesidades y métodos de trabajo de las instituciones educativas.
           </p>
-          <p><a href="#" class="text-primary">Políticas de Privacidad</a></p>
-          <p><a href="#" class="text-primary">Políticas de Cookies</a></p>
+          <div class="footer-link">
+            <p class="mb-1"><a href="#">Políticas de Privacidad</a></p>
+            <p><a href="#">Políticas de Cookies</a></p>
+          </div>
         </div>
   
-        
-        <div class="col-md-4 mb-4 text-center" >
+        <!-- Módulos -->
+        <div class="col-md-3 mb-4">
           <h6 class="fw-bold">Nuestro Módulos</h6>
-          <ul class="list-unstyled small">
+          <ul class="list-unstyled small footer-modulos text-justify">
             <li>Módulo Tesorería</li>
             <li>Módulo Académico</li>
             <li>Módulo Intranet</li>
@@ -223,25 +232,43 @@
           </ul>
         </div>
   
-        
-        <div class="col-md-4 mb-4 text-center" >
+        <!-- Contacto -->
+        <div class="col-md-3 mb-4">
           <h6 class="fw-bold">Contáctanos</h6>
           <p class="small mb-1"><strong>Email:</strong> ventas@sensoft.com.pe</p>
           <p class="small mb-1"><strong>Celular:</strong> 902 779 069</p>
-          <p class="small">
+          <p class="small text-justify">
             <strong>Atención:</strong> Lun a Vie: 8 am - 6 pm<br>
             Sábados: 9 am - 2 pm
           </p>
         </div>
   
-
+        <!-- Apps -->
+        <div class="col-md-3 mb-4 footer-apps text-center">
+          <h6 class="fw-bold">Nuestras Apps</h6>
   
-      
-      <hr class="border-purple">
-      <p class="text-center small mb-0">
-        Cubicol 2023 © todos los derechos reservados. Desarrollado por <strong>SENSOFT SOLUTIONS</strong>.
-      </p>
+          <!-- Contenedor centrado para las imágenes -->
+          <div class="d-flex flex-column align-items-center">
+            <div style="width: 120px; margin-bottom: 10px;"> <!-- margin-bottom para separación entre imágenes -->
+              <img src="img/appstore.png" alt="App Store" class="img-fluid">
+            </div>
+  
+            <div style="width: 120px;">
+              <img src="img/googleplay.png" alt="Google Play" class="img-fluid">
+            </div>
+          </div>
+        </div>
+  
+      </div>
     </div>
+  
+    <!-- Línea morada y créditos -->
+    <hr style="border: none; height: 2px; background: linear-gradient(135deg, #C084FC, #A5B4FC); width: 100%;">
+  
+    <p class="text-center small mb-0">
+      Cubicol 2023 © todos los derechos reservados. Desarrollado por <strong>SENSOFT SOLUTIONS</strong>.
+    </p>
   </footer>
+  
 </body>
 </html>

@@ -273,3 +273,42 @@ body {
     justify-content: space-around;
 }
 
+.footer-logo-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: white;
+    margin: 0;
+  }
+
+  .footer-description {
+    font-size: 14px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+  }
+
+  .footer-link a {
+    font-size: 14px;
+    color: #3f80ff;
+    text-decoration: none;
+  }
+
+  .footer-link a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-modulos li {
+    margin-bottom: 5px;
+  }
+
+  .footer-apps img {
+    max-width: 140px;
+    margin: 8px 0;
+  }
+
+  @media (max-width: 768px) {
+    .text-md-start {
+      text-align: center !important;
+    }
+  }
