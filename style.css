@@ -20,3 +20,19 @@
     position: relative;
     z-index: 1;
 }
+
+.sombra-fuerte {
+    box-shadow: 15px 10px 35px rgb(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s ease;
+}
+
+.sombra-suave {
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.sombra-suave:hover {
+    box-shadow: 8px 8px 30px rgb(0, 0, 0, 0.3);
+    background-color: #f9f9f9;
+    border: 2px solid #c4dbeb;
+}
