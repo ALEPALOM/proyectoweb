@@ -9,23 +9,22 @@
     <link rel="stylesheet" href="style.css">
     <body>
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
                 <div class="d-flex align-items-center">
                     <a class="navbar-brand me-2" href="/">
                         <img class="logo1 d-block" src="img/cubicol-logo.png" style="height: 50px;" alt="...">
                     </a>
-                    <a class="navbar-brand fw-bold fs-3 mb-0" href="#">Cubicol</a>
+                    <a class="navbar-brand fw-bold fs-3 mb-0" href="index.html">Cubicol</a>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Cubicol</a>
+                           <a class="nav-link active" aria-current="page" href="index.html">Cubicol</a>
                         </li>
-<<<<<<< HEAD
                         <!--<li class="nav-item dropdown">
                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
                               Productos
@@ -37,31 +36,28 @@
                       </li>-->
                         <li class="nav-item">
                             <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
-=======
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
-                                Productos
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Producto 1</a></li>
-                                <li><a class="dropdown-item" href="#">Producto 2</a></li>
-                            </ul>
->>>>>>> 8350da62c4f1d6646b8167364eaae99f898c2c2a
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="nosotros.html">Nosotros</a>
+                            <a class="nav-link active" href="servicios.html">Servicios</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="servicios.html">Servicios</a>
+                            <a class="nav-link active" href="agencia.html">Agencia</a>
+                        <!--<ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>-->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="agencia.html">Agencia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contactanos.html">Contáctanos</a>
+                            <a class="nav-link active" aria-current="page" href="contactanos.html">Contáctanos</a>
                         </li>
                     </ul>
-                </div>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
             </div>
         </nav>
     
@@ -201,12 +197,16 @@
         <section class="banner-bg">
             <div class="container">
                 <div class="row align-items-center">
-                   
+                    <div class="col-md-3">
+                        <img src="/api/placeholder/200/150" alt="Estadísticas" class="img-fluid banner-graphic">
+                    </div>
                     <div class="col-md-6 text-center">
                         <h2 class="mb-4">Accede a nuestro servicios adicionales</h2>
                         <button class="cta-button">SOLICITA MAS SERVICIOS</button>
                     </div>
-                    
+                    <div class="col-md-3 text-end">
+                        <img src="/api/placeholder/200/150" alt="Lupa" class="img-fluid banner-graphic">
+                    </div>
                 </div>
             </div>
         </section>
@@ -223,7 +223,6 @@
             </div>
         </section>
     
-        <!-- Footer -->
         <footer class="bg-black text-white pt-5 pb-3">
             <div class="container"> <!-- Usamos 'container' para ajustar mejor el espaciado -->
               <div class="row justify-content-center"> <!-- Centra las columnas en el footer -->
@@ -234,7 +233,7 @@
                     <img src="img/Captura de pantalla 2025-04-12 164958.png" alt="Logo Cubicol" style="width: 60px; margin-right: 10px;"> <!-- Aumenté el tamaño del logo -->
                     <h4 class="footer-logo-title" style="font-size: 2rem; font-weight: bold;">Cubicol</h4> <!-- Aumenté el tamaño del texto y le puse negrita -->
                   </div>
-                  <div style="text-align: justify; max-width: 250px;">
+                 <div style="text-align: justify; max-width: 250px;">
                     <p class="footer-description mb-3">
                         La plataforma digital intuitiva, práctica, capaz de adaptarse a todas las necesidades y métodos de trabajo de las instituciones educativas.
                       </p>
